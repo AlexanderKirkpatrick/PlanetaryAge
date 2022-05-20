@@ -16,7 +16,11 @@ export class Planets {
     this.age = (this.venus) * number;
    }
 
-   ageOnMars(number) {
+  ageOnMars(number) {
     this.age = (this.mars) * number;
-   }
+  }
+
+  ageOnJupiter(number) {
+    this.age = (this.jupiter) * number;
+  }
 }
