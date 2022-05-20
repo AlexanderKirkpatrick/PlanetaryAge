@@ -1,0 +1,1 @@
+import { Planets } from "../src/planet";
