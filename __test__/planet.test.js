@@ -31,4 +31,9 @@ describe('Planets', () => {
     expect(newPlanets.age).toEqual(19.61);
   });
 
+  test('should correctly determine the users age on jupiter', () => {
+    newPlanets.ageOnJupiter(37)
+    expect(newPlanets.age).toEqual(19.61);
+  });
+
 });
