@@ -23,7 +23,7 @@ describe('Planets', () => {
 
   test('should correctly determine the users age on venus', () => {
     newPlanets.ageOnVenus(37)
-    expect(newPlanets.age).toEqual(153.17999999999998);
+    expect(newPlanets.age).toEqual(59.940000000000005);
   });
 
 });
