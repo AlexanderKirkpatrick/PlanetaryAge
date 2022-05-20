@@ -28,7 +28,7 @@ describe('Planets', () => {
 
   test('should correctly determine the users age on mars', () => {
     newPlanets.ageOnMars(37)
-    expect(newPlanets.age).toEqual(59.940000000000005);
+    expect(newPlanets.age).toEqual(19.61);
   });
 
 });
