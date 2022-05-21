@@ -49,7 +49,7 @@ describe('Planets', () => {
 
   test('should correctly determine the users average life span on venus', () => {
     newPlanets.lifeExpectOnMars(74)
-    expect(newPlanets.average).toEqual(119.88000000000001);
+    expect(newPlanets.average).toEqual(39.22);
   });
 
   
