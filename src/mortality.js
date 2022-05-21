@@ -18,4 +18,8 @@ export class Mortality {
   lifeLeftOnMars (number) {
     this.remainder = (this.marsLife) - number;
   }
+
+  lifeLeftOnJupiter (number) {
+    this.remainder = (this.jupiterLife) - number;
+  }
 }
