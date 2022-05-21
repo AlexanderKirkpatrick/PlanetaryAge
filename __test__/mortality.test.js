@@ -16,8 +16,13 @@ describe('Mortality', () => {
   });
 
   test('should correctly determine the users remaining days left on mercury', () => {
-    newMortality.lifeLeftOnMercury(37)
+    newMortality.lifeLeftOnMercury(153.17999999999998)
     expect(newMortality.remainder).toEqual(153.17999999999998);
+  });
+
+  test('should correctly determine the users remaining days left on venus', () => {
+    newMortality.lifeLeftOnVenus(59.940000000000005)
+    expect(newMortality.remainder).toEqual(59.940000000000005);
   });
 
 });
