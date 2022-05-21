@@ -42,9 +42,11 @@ describe('Planets', () => {
     expect(newPlanets.average).toEqual(306.35999999999996);
   });
 
-  test('should correctly determine the users years left to live on mercury', () => {
-    newPlanets.yearsLeftMercury(306.35999999999996)
-    expect(newPlanets.remainder).toEqual(306.35999999999996);
+  test('should correctly determine the users average life span on venus', () => {
+    newPlanets.lifeExpectOnVenus(74)
+    expect(newPlanets.average).toEqual(306.35999999999996);
   });
+
+  
 
 });
