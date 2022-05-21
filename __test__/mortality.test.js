@@ -1,0 +1,1 @@
+import { Mortality } from "../src/mortality";
