@@ -4,7 +4,7 @@ export class Planets {
     this.venus = 1.62;
     this.mars = .53;
     this.jupiter = .08;
-    this.average = 74;
+    this.average = 0;
     this.age = 0;
   }
 
@@ -22,5 +22,9 @@ export class Planets {
 
   ageOnJupiter(number) {
     this.age = (this.jupiter) * number;
+  }
+
+  lifeExpectOnMercury(number) {
+    this.average = (this.mercury) * number;
   }
 }
