@@ -3,7 +3,7 @@ import { Planets } from "../src/planet";
 describe('Planets', () => {
   let newPlanets;
   beforeEach(() => {
-    newPlanets = new Planets(4.14, 1.62, .53, .08, 74, 0);
+    newPlanets = new Planets(4.14, 1.62, .53, .08, 0, 0);
   });
    
 
@@ -12,7 +12,7 @@ describe('Planets', () => {
     expect(newPlanets.venus).toEqual(1.62);
     expect(newPlanets.mars).toEqual(.53);
     expect(newPlanets.jupiter).toEqual(.08);
-    expect(newPlanets.average).toEqual(74);
+    expect(newPlanets.average).toEqual(0);
     expect(newPlanets.age).toEqual(0);
   });
 
@@ -34,6 +34,11 @@ describe('Planets', () => {
   test('should correctly determine the users age on jupiter', () => {
     newPlanets.ageOnJupiter(37)
     expect(newPlanets.age).toEqual(2.96);
+  });
+
+  test('should correctly determine the users remaining years of life', () => {
+    newPlanets.lifeExpectOnMercury(74)
+    expect(newPlanets.average).toEqual(2.96);
   });
 
 });
