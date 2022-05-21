@@ -36,9 +36,9 @@ describe('Planets', () => {
     expect(newPlanets.age).toEqual(2.96);
   });
 
-  test('should correctly determine the users remaining years of life', () => {
+  test('should correctly determine the users average life span on mercury', () => {
     newPlanets.lifeExpectOnMercury(74)
-    expect(newPlanets.average).toEqual(2.96);
+    expect(newPlanets.average).toEqual(306.35999999999996);
   });
 
 });
