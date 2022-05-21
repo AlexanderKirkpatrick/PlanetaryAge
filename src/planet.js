@@ -1,12 +1,11 @@
 export class Planets {
-  constructor (mercury, venus, mars, jupiter, average, age, remainder) {
+  constructor (mercury, venus, mars, jupiter, average, age,) {
     this.mercury = 4.14;
     this.venus = 1.62;
     this.mars = .53;
     this.jupiter = .08;
     this.average = 0;
     this.age = 0;
-    this.remainder = 0;
   }
 
   ageOnMercury(number) {
