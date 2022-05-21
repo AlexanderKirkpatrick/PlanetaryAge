@@ -25,4 +25,9 @@ describe('Mortality', () => {
     expect(newMortality.remainder).toEqual(59.940000000000005);
   });
 
+  test('should correctly determine the users remaining days left on mars', () => {
+    newMortality.lifeLeftOnMars(19.61)
+    expect(newMortality.remainder).toEqual(19.61);
+  });
+
 });
