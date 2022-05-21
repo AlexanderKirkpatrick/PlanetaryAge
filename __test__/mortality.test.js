@@ -30,4 +30,9 @@ describe('Mortality', () => {
     expect(newMortality.remainder).toEqual(19.61);
   });
 
+  test('should correctly determine the users remaining days left on jupiter', () => {
+    newMortality.lifeLeftOnJupiter(2.96)
+    expect(newMortality.remainder).toEqual(2.96);
+  });
+
 });
