@@ -15,4 +15,9 @@ describe('Mortality', () => {
     expect(newMortality.remainder).toEqual(0);
   });
 
+  test('should correctly determine the users remaining days left on mercury', () => {
+    newMortality.lifeLeftOnMercury(37)
+    expect(newMortality.remainder).toEqual(153.17999999999998);
+  });
+
 });
