@@ -47,8 +47,13 @@ describe('Planets', () => {
     expect(newPlanets.average).toEqual(119.88000000000001);
   });
 
-  test('should correctly determine the users average life span on venus', () => {
+  test('should correctly determine the users average life span on mars', () => {
     newPlanets.lifeExpectOnMars(74)
+    expect(newPlanets.average).toEqual(39.22);
+  });
+
+  test('should correctly determine the users average life span on jupiter', () => {
+    newPlanets.lifeExpectOnJupiter(74)
     expect(newPlanets.average).toEqual(39.22);
   });
 
