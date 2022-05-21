@@ -33,6 +33,10 @@ export class Planets {
     this.average = (this.venus) * number;
   }
 
+  lifeExpectOnMars(number) {
+    this.average = (this.mars) * number;
+  }
+
   
 }
 
