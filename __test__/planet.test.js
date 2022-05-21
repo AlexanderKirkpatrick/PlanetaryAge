@@ -43,7 +43,7 @@ describe('Planets', () => {
   });
 
   test('should correctly determine the users years left to live on mercury', () => {
-    let yearsLeftMercury = newPlanets.yearsLeftMercury()
+    newPlanets.yearsLeftMercury(306.35999999999996)
     expect(newPlanets.remainder).toEqual(306.35999999999996);
   });
 
