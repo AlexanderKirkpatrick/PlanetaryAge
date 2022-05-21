@@ -13,11 +13,13 @@ describe('Mortality', () => {
     expect(newMortality.marsLife).toEqual(39.22);
     expect(newMortality.jupiterLife).toEqual(5.92);
     expect(newMortality.remainder).toEqual(0);
+    expect(newMortality.over).toEqual(0);
   });
 
   test('should correctly determine the users remaining days left on mercury', () => {
     newMortality.lifeLeftOnMercury(153.17999999999998)
     expect(newMortality.remainder).toEqual(153.17999999999998);
+    expect(newMortality.over).toEqual(153.17999999999998);
   });
 
   test('should correctly determine the users remaining days left on venus', () => {
