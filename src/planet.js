@@ -29,7 +29,10 @@ export class Planets {
     this.average = (this.mercury) * number;
   }
 
-  yearsLeftMercury() {
-    this.remainder = this.lifeExpectOnMercury - this.ageOnMercury;
+  lifeExpectOnVenus(number) {
+    this.average = (this.venus) * number;
   }
+
+  
 }
+
