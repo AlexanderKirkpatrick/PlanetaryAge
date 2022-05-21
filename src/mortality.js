@@ -6,4 +6,12 @@ export class Mortality {
     this.jupiterLife = 5.92;
     this.remainder = 0
   }
+
+  lifeLeftOnMercury (number) {
+    this.remainder = (this.mercuryLife) - number;
+  }
+
+  lifeLeftOnVenus (number) {
+    this.remainder = (this.venusLife) - number;
+  }
 }
