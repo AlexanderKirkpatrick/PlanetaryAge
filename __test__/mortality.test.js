@@ -41,4 +41,19 @@ describe('Mortality', () => {
     expect(newMortality.over).toEqual(7);
   });
 
+  test('should correctly determine the users remaining days left on venus if over age', () => {
+    newMortality.lifeOverOnVenus(126.88000000000001)
+    expect(newMortality.over).toEqual(7);
+  });
+
+  test('should correctly determine the users remaining days left on mars if over age', () => {
+    newMortality.lifeOverOnMars(46.22)
+    expect(newMortality.over).toEqual(7);
+  });
+
+  test('should correctly determine the users remaining days left on jupiter if over age', () => {
+    newMortality.lifeOverOnJupiter(12.92)
+    expect(newMortality.over).toEqual(7);
+  });
+
 });
