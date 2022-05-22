@@ -23,8 +23,8 @@ _A user will input there age, with a return that will show their new age, accord
 ## Setup/Installation Requirements
 
 _Open via Bash/GitBash;_
-1. Clone this repository onto your computer: https://github.com/Scott-Ian/Galactic-Age-Calculator.git
-2. Navigate into the "Galactic-Age-Calculator" directory in Visual Studio Code, or your preferred text editor
+1. Clone this repository onto your computer: https://github.com/AlexanderKirkpatrick/PlanetaryAge.git
+2. Navigate into the "PlanetaryAge" directory in Visual Studio Code, or your preferred text editor
 3. Install the necessary packages with: npm install
 4. Build the project with: npm run build, then open dist/index.html in your browser of choice
 5. Alternatively, open a live development server in your browser with: npm run start
