@@ -36,7 +36,7 @@ _Open via Bash/GitBash;_
 
 ## GitHub Pages Link
 
-[AlexanderKirkpatrick.github.io/PlanetaryAge](https://alexanderkirkpatrick.github.io/PlanteryAge/)
+[AlexanderKirkpatrick.github.io/PlanetaryAge](https://alexanderkirkpatrick.github.io/PlanetaryAge/)
 
 ## License
 
