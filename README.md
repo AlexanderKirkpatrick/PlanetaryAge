@@ -1,31 +1,33 @@
-# _TITLE_
+Age On Planet Calculator
 
-#### By _**Alexander Kirkpatrick**_
+#### By **Alexander Kirkpatrick**
 
-#### _SHORT DESCRIPTION._
+#### A calculator to determine a users age, if they had been born on one of the other planets in the solar system.
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _Markdown_
-* _Bootstrap_
-* _JavaScript_
-* _jQuery_
+* HTML
+* CSS
+* Bootstrap
+* JQuery
+* Javascript
+* Markdown
+* Node Packet Manager
+* Jest for Test Drive Development
+
 
 ## Description
 
-_._
+_A user will input there age, with a return that will show their new age, according to the specified planet. It will also show the user the amount of years they have left, until they meet the average life expectancy. If the users age is over the average life expectancy, it will show them the amount that they have exceeded it. Assumes user is born on Earth. Sorry aliens._
 
 ## Setup/Installation Requirements
 
-* _Clone repository from Github and save a copy on own computer_
-
-* _Using GUI or terminal, open cloned project directory (titled 'UPDATE') to view files_
-
-* _Using GUI or terminal, open index.html file to view project locally_
-
-* _Stylesheet, image, js file, and readme can also be opened from project home directory_
+_Open via Bash/GitBash;_
+1. Clone this repository onto your computer: https://github.com/Scott-Ian/Galactic-Age-Calculator.git
+2. Navigate into the "Galactic-Age-Calculator" directory in Visual Studio Code, or your preferred text editor
+3. Install the necessary packages with: npm install
+4. Build the project with: npm run build, then open dist/index.html in your browser of choice
+5. Alternatively, open a live development server in your browser with: npm run start
 
 
 ## Known Bugs
@@ -34,7 +36,7 @@ _._
 
 ## GitHub Pages Link
 
-[AlexanderKirkpatrick.github.io/PizzaParlor](https://alexanderkirkpatrick.github.io/PizzaParlor/)
+[AlexanderKirkpatrick.github.io/PlanetaryAge](https://alexanderkirkpatrick.github.io/PlanteryAge/)
 
 ## License
 
