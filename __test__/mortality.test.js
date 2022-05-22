@@ -37,8 +37,8 @@ describe('Mortality', () => {
   });
 
   test('should correctly determine the users remaining days left on mercury if over age', () => {
-    newMortality.lifeOverOnMercury(153.17999999999998)
-    expect(newMortality.over).toEqual(153.17999999999998);
+    newMortality.lifeOverOnMercury(313.35999999999996)
+    expect(newMortality.over).toEqual(7);
   });
 
 });
