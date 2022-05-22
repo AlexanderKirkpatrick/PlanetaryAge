@@ -27,4 +27,16 @@ export class Mortality {
   lifeOverOnMercury (number) {
     this.over = number - (this.mercuryLife);
   }
+
+  lifeOverOnVenus (number) {
+    this.over = number - (this.venusLife);
+  }
+
+  lifeOverOnMars (number) {
+    this.over = number - (this.marsLife);
+  }
+
+  lifeOverOnJupiter (number) {
+    this.over = number - (this.jupiterLife);
+  }
 }
