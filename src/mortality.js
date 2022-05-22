@@ -4,7 +4,8 @@ export class Mortality {
     this.venusLife = 119.88000000000001;
     this.marsLife = 39.22;
     this.jupiterLife = 5.92;
-    this.remainder = 0
+    this.remainder = 0;
+    this.over = 0;
   }
 
   lifeLeftOnMercury (number) {
@@ -21,5 +22,9 @@ export class Mortality {
 
   lifeLeftOnJupiter (number) {
     this.remainder = (this.jupiterLife) - number;
+  }
+
+  lifeOverOnMercury (number) {
+    this.over = number - (this.mercuryLife);
   }
 }
