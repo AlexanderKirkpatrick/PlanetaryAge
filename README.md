@@ -14,6 +14,8 @@ Age On Planet Calculator
 * Markdown
 * Node Packet Manager
 * Jest for Test Drive Development
+* Webpack Module Bundler
+* Project dependencies listed in package.json
 
 
 ## Description
@@ -25,9 +27,10 @@ _A user will input there age, with a return that will show their new age, accord
 _Open via Bash/GitBash;_
 1. Clone this repository onto your computer: https://github.com/AlexanderKirkpatrick/PlanetaryAge.git
 2. Navigate into the "PlanetaryAge" directory in Visual Studio Code, or your preferred text editor
-3. Install the necessary packages with: npm install
-4. Build the project with: npm run build, then open dist/index.html in your browser of choice
-5. Alternatively, open a live development server in your browser with: npm run start
+3. Install the necessary packages with: "npm install"
+4. Build the project with: "npm run build", then open dist/index.html in your browser of choice
+5. Alternatively, open a live development server in your browser with: "npm run start"
+6. On command line in terminal, type "npm test" to complete Jest testing of files stored in __test__ folder
 
 
 ## Known Bugs
